@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Trabalhando com Imagens</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem dinamica">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir um audio no nosso site.</p>
+    <audio src="midia/rap.mp3" controls autoplay></audio>
+</body>
+</html>
